@@ -26,6 +26,7 @@
 #define UMR	0.017453292519943295769236907684886
 
 using std::isinf;
+using std::isnan;
 
 UASManager* UASManager::instance()
 {
