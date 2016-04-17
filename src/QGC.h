@@ -49,14 +49,15 @@
 #else
     #include <cmath>
 
-    #if defined(Q_OS_MACX) || defined(Q_OS_WIN)
+    // /tmp/packerbuild-501/apm_planner/apm_planner/src/apm_planner-2.0.30
+    //#if defined(Q_OS_MACX) || defined(Q_OS_WIN)
         #ifndef isnan
             #define isnan(x) std::isnan(x)
         #endif
         #ifndef isinf
             #define isinf(x) std::isinf(x)
         #endif
-    #endif
+    //#endif
 #endif
 
 namespace QGC
